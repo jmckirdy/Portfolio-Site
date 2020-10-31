@@ -18,9 +18,34 @@ p {
 
 .flex-container {
     display: flex;
-    height: 50px;
-    justify-content: right;  
-    align-items: right;
-    margin: 4px;
-    padding: 8px;      
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: tomato;
   }
+  
+  .flex-container > div {
+    background-color: teal;
+    width: 105px;
+    height: 40px;
+    margin: 2px;
+    text-align: center;
+    line-height: normal;
+    font-size: 14px;
+  }
+
+  /* .stats {
+    border: 2px solid darkslategray;
+    border-radius: 14px;
+	background-color: seagreen;
+    color: black;
+    margin: 2px;
+    padding: 6px;
+}
+.statCont {
+    border: 2px solid red;
+    border-radius: 14px;
+	background-color: salmon;
+    color: rgb(0, 47, 47);
+    margin: 2px;
+    padding: 6px;
+} */
