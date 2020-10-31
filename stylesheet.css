@@ -6,6 +6,7 @@ body {
 header {
     color: chartreuse;
     background-color: khaki;
+    text-shadow: lightcoral;
 }
 
 p {
@@ -17,23 +18,27 @@ p {
     padding: 6px; 
 }
 
-.flex-container {
+.flex-navContainer {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    background-color: tomato;
+    flex-direction: row-reverse;
+    background-color: rgba(29, 6, 156, 0.5);
+    
   }
   
-  .flex-container > div {
+  .flex-navContainer > div {
     border: 2px solid rgb(30, 71, 49);
     border-radius: 14px;
     background-color: teal;
     width: 105px;
-    height: 40px;
+    height: 30px;
     margin: 2px;
     text-align: center;
-    line-height: normal;
-    font-size: 14px;
+    line-height: 170%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 51, 58);
   }
 
   /* .stats {
