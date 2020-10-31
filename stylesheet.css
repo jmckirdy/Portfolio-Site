@@ -5,6 +5,7 @@ body {
 
 header {
     color: chartreuse;
+    background-color: khaki;
 }
 
 p {
@@ -24,6 +25,8 @@ p {
   }
   
   .flex-container > div {
+    border: 2px solid rgb(30, 71, 49);
+    border-radius: 14px;
     background-color: teal;
     width: 105px;
     height: 40px;
