@@ -20,6 +20,30 @@ p {
     padding: 6px; 
 }
 
+
+.flex-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: crimson;
+
+}
+
+    .flex-main > div {
+        border-radius: 25px;
+        border: 2px solid cadetblue;
+        width: 220px;
+        height: 220px;
+        margin: 2px;
+        text-align: start;
+        line-height: 170%;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(24, 31, 37);
+
+    }
+
 .flex-navContainer {
     display: flex;
     flex-wrap: wrap;
